@@ -1,0 +1,40 @@
+body {
+  background-color: #fff;
+}
+
+container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+//input
+.row {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.btn-input {
+  background-color: #414568;
+  color: #fff;
+  width: 190px;
+
+  &:hover {
+    background-color: #545a94;
+    color: #fff;
+  }
+}
+
+//gudang
+
+.col-picture {
+  text-align: center;
+}
