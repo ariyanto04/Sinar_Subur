@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="frontend/styles/main.css" />
+  </head>
+  <body>
+    <!-- footer -->
+    <footer class="container-fluid border-top">
+      <div class="justify-content-center align-items-center text-center">©Copyright Sinar Subur x Darsono Grup•2021•All right reserved•Powered by Darsono Grup</div>
+    </footer>
+
+    <script src="frontend/libraries/jquery/jquery-3.6.0.min.js"></script>
+    <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
+  </body>
+</html>
