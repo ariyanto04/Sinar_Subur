@@ -13,15 +13,12 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #696e94">
       <div class="container">
-        <a class="navbar-brand" href="#">Sinar Subur</a>
+        <a class="navbar-brand" href="index.html">Sinar Subur</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features/Layanan</a>
-            </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Logout</a>
             </li>
@@ -35,14 +32,14 @@
     <div class="container section-input">
       <div class="row">
         <!-- input -->
-        <div class="col-7 section-heading">
+        <div class="col-7 section-heading mt-3">
           <h2>Input Penghasilan Harian</h2>
           <div class="section section-input">
             <p class="container text-end">DD-MM-YY</p>
             <!-- form -->
             <form method="post" action="#">
               <div class="pertama mb-3">
-                <label for="formGroupExampleInput" class="form-label">Example label</label>
+                <label for="formGroupExampleInput" class="form-label">Nama Baran</label>
                 <div class="row">
                   <div class="col-10">
                     <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder" />
@@ -57,11 +54,11 @@
               <div class="kedua mb-3">
                 <div class="row">
                   <div class="col">
-                    <label for="formGroupExampleInput" class="form-label">Example label</label>
+                    <label for="formGroupExampleInput" class="form-label">Harga Seharusnya</label>
                     <input type="text" class="form-control" placeholder="First name" aria-label="First name" />
                   </div>
                   <div class="col">
-                    <label for="formGroupExampleInput" class="form-label">Example label</label>
+                    <label for="formGroupExampleInput" class="form-label">Harga Jual</label>
                     <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" />
                   </div>
                 </div>
@@ -69,7 +66,7 @@
 
               <!-- form 3 -->
               <div class="ketiga mb-3">
-                <label for="formGroupExampleInput" class="form-label">Example label</label>
+                <label for="formGroupExampleInput" class="form-label">Kuantiti</label>
                 <div class="section-button">
                   <button>-</button>
                   <input type="1" />
@@ -84,12 +81,49 @@
         <!-- akhir input -->
         <!-- view -->
         <div class="col section-heading-view">
-          <h2>Report Penjualan Hari Ini</h2>
+          <div class="card card-pejualan card-right text-center" style="margin-top: 55px">
+            <h4 class="mt-3">Report Penjualan Harian</h4>
+            <hr />
+            <table class="penjualan-harian">
+              <tr>
+                <th width="50%">Lampu Philips 10 watt</th>
+                <td class="text-end" width="50%">22.500</td>
+              </tr>
+              <tr>
+                <th width="50%">Kabel Serabut 5meter</th>
+                <td class="text-end" width="50%">20.000</td>
+              </tr>
+              <tr>
+                <th width="50%">Solder 12 watt</th>
+                <td class="text-end" width="50%">15.500</td>
+              </tr>
+              <tr>
+                <th width="50%">Kipas Angin Sanken</th>
+                <td class="text-end" width="50%">175.000</td>
+              </tr>
+              <tr>
+                <th width="50%">Terminal Broco 5 Lubang</th>
+                <td class="text-end" width="50%">25.000</td>
+              </tr>
+              <tr>
+                <th width="50%"><h5>ToTal</h5></th>
+                <td class="text-end" width="50%"><strong>500.000</strong></td>
+              </tr>
+            </table>
+          </div>
+          <div class="download-button">
+            <a href="#" class="btn mt-3 py-2" style="background-color: #696e94">Unduh Laporan</a>
+          </div>
         </div>
         <!-- akhir view -->
       </div>
     </div>
     <!-- akhir body -->
+
+    <!-- footer -->
+    <footer class="container-fluid border-top fixed-bottom">
+      <div class="justify-content-center align-items-center text-center">©Copyright Sinar Subur x Darsono Grup•2021•All right reserved•Powered by Darsono Grup</div>
+    </footer>
 
     <script src="frontend/libraries/jquery/jquery-3.6.0.min.js"></script>
     <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
