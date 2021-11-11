@@ -10,6 +10,87 @@
     <link rel="stylesheet" href="frontend/styles/main.css" />
   </head>
   <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #696e94">
+      <div class="container">
+        <a class="navbar-brand" href="#">Sinar Subur</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features/Layanan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Logout</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir navbar -->
+
+    <!-- body -->
+    <div class="container section-input">
+      <div class="row">
+        <!-- input -->
+        <div class="col-7 section-heading">
+          <h2>Input Penghasilan Harian</h2>
+          <div class="section section-input">
+            <p class="container text-end">DD-MM-YY</p>
+            <!-- form -->
+            <form method="post" action="#">
+              <div class="pertama mb-3">
+                <label for="formGroupExampleInput" class="form-label">Example label</label>
+                <div class="row">
+                  <div class="col-10">
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder" />
+                  </div>
+                  <div class="col">
+                    <button type="submit" class="btn" style="background-color: #696e94; height: 40px"><img src="frontend/images/search.png" style="width: 30px; height: 30px" alt="" /></button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- form 2 -->
+              <div class="kedua mb-3">
+                <div class="row">
+                  <div class="col">
+                    <label for="formGroupExampleInput" class="form-label">Example label</label>
+                    <input type="text" class="form-control" placeholder="First name" aria-label="First name" />
+                  </div>
+                  <div class="col">
+                    <label for="formGroupExampleInput" class="form-label">Example label</label>
+                    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" />
+                  </div>
+                </div>
+              </div>
+
+              <!-- form 3 -->
+              <div class="ketiga mb-3">
+                <label for="formGroupExampleInput" class="form-label">Example label</label>
+                <div class="section-button">
+                  <button>-</button>
+                  <input type="1" />
+                  <button>+</button>
+                </div>
+              </div>
+
+              <button type="submit" style="background-color: #696e94">Simpan</button>
+            </form>
+          </div>
+        </div>
+        <!-- akhir input -->
+        <!-- view -->
+        <div class="col section-heading-view">
+          <h2>Report Penjualan Hari Ini</h2>
+        </div>
+        <!-- akhir view -->
+      </div>
+    </div>
+    <!-- akhir body -->
+
     <script src="frontend/libraries/jquery/jquery-3.6.0.min.js"></script>
     <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
   </body>
